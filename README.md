@@ -33,7 +33,7 @@ source venv/bin/activate
 pip install requirements.txt
 
 5. Setup the mongoDB cluster
-
+```
 ## Project Structure
 
 ```
