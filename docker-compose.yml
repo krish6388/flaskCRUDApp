@@ -1,0 +1,24 @@
+
+services:
+  app:
+    build: .
+    command: python -u app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    links:
+      - db
+  db:
+    image: mongo:latest
+    hostname: mongodb:27017
+    environment:
+      MONGI_URI: "mongodb://mongodb:27017/flaskCRUD"
+      
+      # FOR MONGO ATLAS
+      # MONGO_URI: "mongodb+srv://root:pass@cluster0.dqidshh.mongodb.net/flaskCRUD?retryWrites=true&w=majorit"
+      # - MONGO_INITDB_DATABASE=users
+      # - MONGO_INITDB_ROOT_USERNAME=root
+      # - MONGO_INITDB_ROOT_PASSWORD=pass
+
+
