@@ -76,14 +76,14 @@ project_root_dir
 # GET/users
 ![image](https://github.com/krish6388/flaskCRUDApp/assets/85309615/3e333655-0493-431d-b42e-648719b09d77)
 
-# GET/users/<id>
+# GET/users/id
 ![image](https://github.com/krish6388/flaskCRUDApp/assets/85309615/e063eac6-7c5e-46db-a6ec-6ee1ef6f3355)
 
 # POST/users
 ![image](https://github.com/krish6388/flaskCRUDApp/assets/85309615/1453695a-ca12-40ea-8e54-250a7ede35e2)
 
-# PUT/users/<id>
+# PUT/users/id
 ![image](https://github.com/krish6388/flaskCRUDApp/assets/85309615/5fff5b8b-bbca-4a5e-88a3-1e8c387a01c5)
 
-# DELETE/users/<id>
+# DELETE/users/id
 ![image](https://github.com/krish6388/flaskCRUDApp/assets/85309615/6601f74b-d48a-453f-8f7d-c69b173022cc)
